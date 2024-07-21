@@ -14,13 +14,13 @@ export default function Navbar() {
             )
             .catch((error) => console.error(`Error: ${error}`));
 
-        window.diam
-            .sign(
-                "AAAAAgAAAADD9u0l8B7fMgvRITQuplXFfTskVrNgTgyBN1heDfkLEAAAAGQApCseAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAADId5UakWjIgj3XsdYXl/8mJKTpUSUIu8F3IcB7cKoQ1wAAAAAAAAAAAExLQAAAAAAAAAAA",
-                true,
-                "Diamante Testnet"
-            )
-            .then((res) => console.log(res)); 
+        // window.diam
+        //     .sign(
+        //         "AAAAAgAAAADD9u0l8B7fMgvRITQuplXFfTskVrNgTgyBN1heDfkLEAAAAGQApCseAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAADId5UakWjIgj3XsdYXl/8mJKTpUSUIu8F3IcB7cKoQ1wAAAAAAAAAAAExLQAAAAAAAAAAA",
+        //         true,
+        //         "Diamante Testnet"
+        //     )
+        //     .then((res) => console.log(res)); 
     }
 
     return (
