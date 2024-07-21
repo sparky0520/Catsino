@@ -1,0 +1,414 @@
+body{
+  background-image: url("src/assets/bg.png");
+}
+.logo{
+  margin: 20px 10px;
+}
+.Games-Heading{
+  color:#ffffff;
+  font-size:3rem;
+}
+.Dice{
+  position: absolute;
+  top: 230px;
+  left: 250px;
+  border-radius: 10px;
+  background-color: pink;
+}
+.Slots{
+  position: absolute;
+  top:230px;
+  left:520px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.Flip{
+  position:absolute;
+  top:230px;
+  left:790px;
+  border-radius: 10px;
+  background-color: beige;
+}
+.Hilo{
+  position: absolute;
+  top: 230px;
+  left: 1060px;
+  border-radius: 10px;
+  background-color:bisque;
+}
+.Mines{
+  position: absolute;
+  top: 420px;
+  left: 250px;
+  border-radius: 10px;
+  background-color:#fadd73;
+}
+.Roulette{
+  position: absolute;
+  top: 420px;
+  left: 520px;
+  border-radius: 10px;
+  background-color: #a4fa73;
+}
+.Plinko{
+  position: absolute;
+  top: 420px;
+  left: 790px;
+  border-radius: 10px;
+  background-color: #fc4242;
+}
+.Crash{
+  position: absolute;
+  top: 420px;
+  left: 1060px;
+  border-radius: 10px;
+  background-color: #f58c62;
+}
+.Limbo{
+  position: absolute;
+  top: 610px;
+  left: 250px;
+  border-radius: 10px;
+  background-color: #e858bd;
+}
+
+.Keno{
+  position: absolute;
+  top: 610px;
+  left: 520px;
+  border-radius: 10px;
+  background-color: #d7e858;
+}
+.JackpotDetails{
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top:42px;
+  left: 1100px;
+  border-radius: 20px;
+  background-color: aquamarine;
+  border:1px solid white
+}
+.Token{
+  height:50px;
+  width:150px;
+  border-radius: 10px;
+  position: absolute;
+  top:30px;
+  left:1200px;
+  background-color: black;
+  color: white;
+}
+.Solana-Image{
+  width:15px;
+  height: 15px;
+  position: relative;
+  top:2px;
+}
+.Connect{
+  width: 100px;
+  height:50px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  position:absolute;
+  top:30px;
+  left:1370px;
+}
+.Dice-Roll{
+  background-color: #09141a;
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  top:200px;
+  left: 260px;
+  text-align: center;
+}
+.Dice img,
+.Slots img,
+.Flip img,
+.Hilo img,
+.Mines img,
+.Roulette img,
+.Plinko img,
+.Crash img,
+.Limbo img,
+.Keno img{
+  transition: transform 0.3s ease-in-out;
+}
+
+.Dice img:hover,
+.Slots img:hover,
+.Flip img:hover,
+.Hilo img:hover,
+.Mines img:hover,
+.Roulette img:hover,
+.Plinko img:hover,
+.Crash img:hover,
+.Limbo img:hover,
+.Keno img:hover{
+  transform: scale(1.2);
+}
+.Dice-Roll-Heading{
+  font-size:5rem;
+  color:white;
+}
+.Dice-Roll-Content{
+  position: relative;
+  top:-40px;
+  font-size: 5rem;  
+  color:white;
+}
+.Dice-Roll-Content-1{
+  position: relative;
+  top: -50px;
+  font-size: 2rem;  
+  color:white;
+}
+.Dice-Footer-Button-1{
+  width:200px;
+  height: 40px;
+  position: absolute;
+  top:550px;
+  left:20px;
+  background-color: black;
+  border-radius: 10px;
+}
+.Dice-Footer-Button-1-Image{
+  width:20px;
+  height:20px;
+}
+.Dice-Footer-Button-2{
+  width:50px;
+  height:40px;
+  position: absolute;
+  top:550px;
+  left:245px;
+  border-radius: 10px;
+  background-color: #4332b8;
+  color:white;
+}
+/* .Dice-Slider{
+  background-color: red;
+  width:100px;
+  height:100px;
+  position: absolute;
+  top:300px;
+  left:450px;
+} */
+.Slots-Heading{
+  color:white;
+  font-size: 3rem;
+}
+.Slots-Spin{
+  background-color: #09141a;
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  top:200px;
+  left: 260px;
+}
+.Slots-0-5x{
+  background-color:#fcb308;
+  border:solid white;
+  border-width: 1px;
+  width:35px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left:350px;
+}
+.Slots-1x{
+  background-color:#fcb308;
+  border:solid white;
+  border-width: 1px;
+  width:35px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left:400px;
+}
+.Slots-2x{
+  background-color:#fcb308;
+  border:solid white;
+  border-width: 1px;
+  width:35px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left:450px;
+}
+.Slots-3x{
+  background-color:#fcb308;
+  border:solid white;
+  border-width: 1px;
+  width:35px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left:500px;
+}
+.Slots-5x{
+  background-color:#fcb308;
+  border:solid white;
+  border-width: 1px;
+  width:35px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left:550px;
+}
+.Slots-7x{
+  background-color:#fcb308;
+  border:solid white;
+  border-width: 1px;
+  width:35px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left:600px;
+}
+.Unicorn-Div-1{
+  border:solid white;
+  border-width: 1px;
+  width: 90px;
+  height:180px;
+  object-fit: contain;
+  position: absolute;
+  top:200px;
+  left: 350px;
+}
+.Unicorn-Div-2{
+  border:solid white;
+  border-width: 1px;
+  width: 90px;
+  height:180px;
+  object-fit: contain;
+  position: absolute;
+  top:200px;
+  left: 450px;
+}
+.Unicorn-Div-3{
+  border:solid white;
+  border-width: 1px;
+  width: 90px;
+  height:180px;
+  object-fit: contain;
+  position: absolute;
+  top:200px;
+  left: 550px;
+}
+.SpinMe-Button{
+  align-content: center;
+  border:solid white;
+  color:white;
+  background-color:#f58c62;
+  width: 287px;
+  height:30px;
+  position: absolute;
+  top:400px;
+  left:350px;
+}
+.Slots-Footer-Button-1{
+  width:200px;
+  height: 40px;
+  position: absolute;
+  top:550px;
+  left:20px;
+  background-color: black;
+  border-radius: 10px;
+}
+.Slots-Footer-Button-1-Image{
+  width:20px;
+  height:20px;
+}
+.Slots-Footer-Button-2{
+  width:50px;
+  height:40px;
+  position: absolute;
+  top:550px;
+  left:245px;
+  border-radius: 10px;
+  background-color: #4332b8;
+  color:white;
+} 
+.Flip-Start{
+  background-color: #09141a;
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  top:200px;
+  left: 260px;
+}
+.Flip-Heading{
+  color: white;
+  font-size: 2rem;
+  position: relative;
+  top:-20px;
+}
+.Flip-To-Win{
+  color:red;
+  border-radius: 10px;
+  width:220px;
+  height:40px;
+  background-color: #e6e39c;
+}
+.Heads-Bg{
+  background-color: #fcb308;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  position: relative;
+  top:-10px;
+}
+.Heads-Img{
+  position:relative;
+  top:4.5px;
+}
+.Heads-Div{
+  border: solid yellow;
+  width:100px;
+  position: relative;
+  top:20px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+.Flip-Footer-Button-1{
+  width:200px;
+  height: 40px;
+  position: absolute;
+  top:520px;
+  left:20px;
+  background-color: black;
+  border-radius: 10px;
+}
+.Flip-Footer-Button-1-Image{
+  width:20px;
+  height:20px;
+}
+.Flip-Footer-Button-2{
+  width:50px;
+  height:40px;
+  position: absolute;
+  top:520px;
+  left:245px;
+  border-radius: 10px;
+  background-color: #4332b8;
+  color:white;
+} 
+.gambling_image{
+  position:fixed;
+  bottom:-40px;
+  left:-50px;
+  height:600px;
+  width:1800px;
+  z-index:-1;
+}
+.right_cat_image{
+  position:fixed;
+  bottom:-100px;
+  right:0px;
+  height:600px;
+  width:1500px;
+  z-index:-2; 
+}
